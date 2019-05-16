@@ -3,7 +3,7 @@
   <data>
     <variable
         name="viewModel"
-        type="com.sucho.notesapp.feature.noteslist.NotesListViewModel"
+        type="com.sucho.notesapp.feature.highlightednotes.HighlightedNotesListViewModel"
         />
   </data>
   <FrameLayout
@@ -15,7 +15,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Notes List"
+        android:text="Highlighted Notes"
         />
 
   </FrameLayout>

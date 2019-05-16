@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item
+      android:id="@id/notesListFragment"
+      android:icon="@drawable/ic_notes_list"
+      android:title="@string/list" />
+  <item
+      android:id="@id/highlightedNotesListFragment"
+      android:icon="@drawable/ic_highlighted"
+      android:title="@string/highlighted" />
+  <item
+      android:id="@id/newNoteFragment"
+      android:icon="@drawable/ic_new_note"
+      android:title="@string/new_note" />
+</menu>

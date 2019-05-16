@@ -8,13 +8,14 @@ buildscript {
     ext.rxAndroidVersion = '2.0.2'
     ext.rxJavaVersion = '2.0.7'
     ext.nav_version = "1.0.0-alpha09"
+    ext.navigationVersion = "2.0.0"
     repositories {
         google()
         jcenter()
         
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.3.0'
+        classpath 'com.android.tools.build:gradle:3.4.0'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
         classpath "io.realm:realm-gradle-plugin:$realm_version"
         // NOTE: Do not place your application dependencies here; they belong

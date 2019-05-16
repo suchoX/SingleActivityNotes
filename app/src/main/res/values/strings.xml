@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">NotesApp</string>
+    
+    <string name="list">List</string>
+    <string name="highlighted">Highlighted</string>
+    <string name="new_note">New</string>
 </resources>
