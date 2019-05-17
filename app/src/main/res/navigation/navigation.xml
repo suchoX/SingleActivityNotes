@@ -8,16 +8,16 @@
   <fragment
       android:id="@+id/notesListFragment"
       android:name="com.sucho.notesapp.feature.noteslist.NotesListFragment"
-      android:label="NotesListFragment"
+      android:label="Notes"
       tools:layout="@layout/fragment_notes_list"/>
   <fragment
       android:id="@+id/highlightedNotesListFragment"
       android:name="com.sucho.notesapp.feature.highlightednotes.HighlightedNotesListFragment"
-      android:label="HighlightedNotesListFragment"
+      android:label="Highlighted"
       tools:layout="@layout/fragment_highlighted_notes"/>
   <fragment
       android:id="@+id/newNoteFragment"
       android:name="com.sucho.notesapp.feature.newnote.NewNoteFragment"
-      android:label="NewNoteFragment"
+      android:label="New"
       tools:layout="@layout/fragment_new_note"/>
 </navigation>

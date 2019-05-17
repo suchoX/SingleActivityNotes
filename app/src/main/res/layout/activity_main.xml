@@ -8,6 +8,13 @@
     android:orientation="vertical"
     tools:context=".MainActivity"
     >
+  <androidx.appcompat.widget.Toolbar
+      android:id="@+id/toolbar"
+      android:background="@color/colorPrimary"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      app:titleTextColor="@color/white"
+      />
 
   <fragment
       android:id="@+id/my_nav_host_fragment"
